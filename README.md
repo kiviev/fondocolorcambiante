@@ -2,7 +2,7 @@
 variables:
 -rojo, verde y azul ( vamos a crear el color del fondo con rgba, que se definen por la cantidad de azul verde y rojo que tienen, los valores van entre 0 y 255, siendo 0 ausencia de color y 255 todo el color)
 
--interval esta va a ejecutar la funcion colorFondo cada segundo/lo que queramos ( asi irá mas o menos rapido)
+-interval esta va a ejecutar la funcion colorFondo cada segundo/lo que queramos ( asi irá mas o menos rapido) en cada iteracion llama a la funcion cambiaColor().
 
 -boolRojo, boolAzul y boolVerde --> son variables booleanas que nos van a servir para decidir en cambiaColor() si en cada intervalo vamos sumando 1 al color especifico o le vamos restando, depende si esta en true o false ( en true suma y en false resta).
 
