@@ -6,7 +6,7 @@ var boolVerde=true;
 
 function colorFondo(){
 	cambiaColor();
-	document.body.style.background='rgba('+ rojo + ','+ azul + ',' + verde +  ',0.5)'; 
+	document.body.style.background='rgba('+ rojo + ','+ verde + ',' + azul +  ',0.7)'; 
 }
 
 function cambiaColor(){	
@@ -27,34 +27,34 @@ function cambiaColor(){
 		}
 	}
 	if(boolAzul){
-		azul++;
+		azul+=2;
 		if(azul>255){
 			boolAzul=false;
 			azul=255;
-			azul--;
+			azul-=2;
 		}
 		
 	}else{
-		azul--;
+		azul-=2;
 		if(azul<0){
 			azul=0;
-			azul++;
+			azul+=2;
 			boolAzul=true;
 		}
 	}
 	if(boolVerde){
-		verde++;
+		verde+=3;
 		if(verde>255){
 			boolVerde=false;
 			verde=255;
-			verde--;
+			verde-=3;
 		}
 		
 	}else{
-		verde--;
+		verde-=3;
 		if(verde<0){
 			verde=0;
-			verde++;
+			verde+=3;
 			boolVerde=true;
 		}
 	}
