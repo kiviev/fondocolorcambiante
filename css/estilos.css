@@ -12,6 +12,7 @@ footer{
 	width: 100%;
 	position: fixed;
 	bottom: 0;
+	text-align: center;
 }
 footer a{
 	text-decoration: none;
@@ -24,6 +25,7 @@ footer a{
 }
 footer a:hover{
 	color: #eee;
+
 	-ms-transition: all 0.15s ease-in;
 	-moz-transition: all 0.15s ease-in;
 	-webkit-transition: all 0.15s ease-in;
